@@ -1,51 +1,33 @@
-/* line 2, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\000032}}
 .svgworldmap-container {
   position: relative;
 }
-/* line 6, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\000036}}
 .svgworldmap-container .svg-container > svg {
   width: 100%;
 }
-/* line 9, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\000039}}
 .svgworldmap-container .svg-container > svg > g {
   display: none;
 }
-/* line 12, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000312}}
 .svgworldmap-container .svg-container > svg > g > path {
   stroke: #333;
   fill: #6296CD;
   cursor: pointer;
 }
-/* line 19, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000319}}
 .svgworldmap-container .svg-container > svg > g > path:hover {
   fill: #33669A;
 }
-/* line 27, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000327}}
 .svgworldmap-container div.control-reset {
   position: absolute;
   top: 0px;
   left: 10px;
   cursor: pointer;
 }
-/* line 33, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000333}}
 .svgworldmap-container div.control-reset > svg {
   width: 20px;
   height: 19px;
 }
-/* line 36, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000336}}
 .svgworldmap-container div.control-reset > svg path {
   fill: #bbb;
 }
-/* line 42, /var/www/travelographer4/public/svgworldmap/less/style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/travelographer4\/public\/svgworldmap\/less\/style\.less}line{font-family:\0000342}}
 .svgworldmap-container div.svgworldmap-tooltip {
   position: fixed;
   display: none;
