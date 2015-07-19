@@ -1,0 +1,52 @@
+
+.svgworldmap-container {
+	position: relative;
+
+	.svg-container {
+		> svg {
+			width: 100%;
+			
+			> g {
+				display: none;
+
+				> path {
+					//when stroke and fill are not set the svg seems to
+					//detect mouseover (hover) very slowly ?!?!?!?
+					stroke: #333;
+					fill: #6296CD;
+
+					cursor: pointer;
+					&:hover {
+						fill: #33669A;
+					}
+				}
+			}
+		}
+	}
+
+	div.control-reset {
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		cursor: pointer;
+
+		> svg {
+			width: 20px;
+			height: 19px;
+			path {
+				fill: #bbb;
+			}
+		}
+	}
+
+	div.svgworldmap-tooltip {
+		position: fixed;
+		display: none;
+		background: #333;
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 3px;
+		padding: 3px;
+	}
+}
+
